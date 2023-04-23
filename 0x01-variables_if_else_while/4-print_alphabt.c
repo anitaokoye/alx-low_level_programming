@@ -5,15 +5,18 @@
  */
 int main(void)
 {
-	char ch;
+	int n = 97
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-		putchar(ch);
-
-	for (ch = 'A'; ch <= 'Z'; ch++)
-		putchar(ch);
-
+	while (n <= 122)
+	{
+		if (n == 101 || n == 11)
+		{
+			n++;
+			continue;
+		}
+		putchar(n);
+		n++;
+	}
 	putchar('\n');
-
 	return (0);
 }
