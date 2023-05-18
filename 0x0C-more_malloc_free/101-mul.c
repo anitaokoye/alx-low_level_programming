@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 /**
- * _is_zero - A program that determines if any number is zero
+ * _is_zero - determines if any number is zero
  * @argv: argument vector.
  * Return: 0
  */
@@ -50,7 +50,7 @@ char *_initialize_array(char *ar, int lar)
 }
 
 /**
- * _checknum - A program that determines the length of the number
+ * _checknum -  determines the length of the number
  * and checks if number is in base 10.
  * @argv: arguments vector.
  * @n: row of the array.
