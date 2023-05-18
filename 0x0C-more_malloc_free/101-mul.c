@@ -1,12 +1,13 @@
 #include "main.h"
 #include <stdlib.h>
-#include <ctype.h>
 #include <stdio.h>
+#include <ctype.h>
 
 /**
  * _is_zero - determines if any number is zero
  * @argv: argument vector.
- * Return: 0
+ *
+ * Return: no return.
  */
 void _is_zero(char *argv[])
 {
@@ -37,6 +38,7 @@ void _is_zero(char *argv[])
  * _initialize_array - set memery to zero in a new array
  * @ar: char array.
  * @lar: length of the char array.
+ *
  * Return: pointer of a char array.
  */
 char *_initialize_array(char *ar, int lar)
@@ -50,7 +52,7 @@ char *_initialize_array(char *ar, int lar)
 }
 
 /**
- * _checknum -  determines the length of the number
+ * _checknum - determines length of the number
  * and checks if number is in base 10.
  * @argv: arguments vector.
  * @n: row of the array.
@@ -77,7 +79,7 @@ int _checknum(char *argv[], int n)
  * @argc: number of arguments.
  * @argv: arguments vector.
  *
- * Return: 0 (success)
+ * Return: 0 - success.
  */
 int main(int argc, char *argv[])
 {
@@ -122,3 +124,4 @@ int main(int argc, char *argv[])
 	printf("%s\n", nout);
 	return (0);
 }
+
